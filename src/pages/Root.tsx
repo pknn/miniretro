@@ -1,7 +1,7 @@
 import { appearanceAtom } from '@/atoms/appearanceAtoms';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import { Box, Container, Flex, Theme } from '@radix-ui/themes';
+import { Container, Flex, Theme } from '@radix-ui/themes';
 import { useAtomValue } from 'jotai';
 import { Outlet } from 'react-router-dom';
 
